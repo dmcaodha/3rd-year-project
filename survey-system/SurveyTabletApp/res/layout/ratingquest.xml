@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="800dip"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dip"
+	    android:background="#3D3D3D" 
+	    android:layout_gravity="center_horizontal">
+	     
+	    <TextView 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:id="@+id/surTitle" 
+	    	android:padding="6dip"
+		    android:textSize="24sp"
+		    android:textColor="#ffffff"
+		    android:background="#272727" 
+	    	android:layout_weight="1"
+	    	android:text="">
+	    </TextView>
+	    <TextView 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content" 
+	    	android:id="@+id/surTopic" 
+	    	android:padding="6dip"
+		    android:textSize="24sp"
+	    	android:layout_weight="1"
+	    	android:layout_alignParentRight="true"
+	    	android:text="">
+	    </TextView>
+	    <TextView
+	     	android:id="@+id/questNo"
+	        android:text=""
+	        android:gravity="center_horizontal"
+	        android:background="#52c6b5"
+	        android:textColor="#FFFFFF"
+	        android:padding="6dip"
+		    android:textSize="18sp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/surTitle"
+	        android:layout_weight="1">
+	    </TextView>
+	    <TextView 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:id="@+id/currQuest" 
+	    	android:padding="6dip"
+		    android:textSize="18sp"
+	    	android:layout_weight="1"
+	    	android:layout_toRightOf="@id/questNo"
+	    	android:layout_below="@+id/surTitle"
+	    	android:background="#3D3D3D"
+	    	android:text="">
+	    </TextView>
+	</RelativeLayout>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="800dip"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="40dip"
+	    android:background="#3D3D3D" 
+	    android:layout_gravity="center_horizontal">
+	    
+	    <TextView 
+	    android:id="@+id/chooseAns"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:background="#272727"
+		android:textColor="#ffffff"/>
+		
+		<RatingBar android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:layout_below="@+id/chooseAns"
+        android:stepSize="1.0"/>
+		
+	</RelativeLayout>
+	
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="800dip"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dip"
+	    android:layout_gravity="center_horizontal">
+	    
+	    <Button android:id="@+id/prevBtn" 
+		  	android:text=""
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="false"
+			android:background="#348075"
+			android:onClick="goBack"
+			android:padding="6dip" />
+	
+		<Button android:id="@+id/nextBtn" 
+		  	android:text=""
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:background="#348075"
+			android:onClick="nextQuestOrSave"
+			android:padding="6dip" />
+	</RelativeLayout>
+</LinearLayout>

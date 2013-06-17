@@ -1,0 +1,716 @@
+body {
+    background: #424242;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI",Frutiger,Tahoma,Helvetica,"Helvetica Neue",Arial,sans-serif;
+}
+
+#container {
+    width: 960px;
+    margin: auto;
+}
+
+a {
+    color: #1a554c;
+    text-decoration: none;
+}
+
+a img {
+    border:0;
+}
+
+.input_label{
+    font-size: 10pt;
+    margin-bottom: 6px;
+}
+
+.light {
+    color: #e6e6e6;
+}
+
+#login_form {
+    width: 300px;
+    border: 1px solid white;
+    margin: 150px auto 0;
+    padding: 1em;
+    -moz-border-radius: 3px;
+}
+
+h1.error_head{
+    text-align: center;
+    font-size: 15pt;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    color: #e6e6e6;
+}
+
+input[type=text], input[type=password] {
+    display: block;
+    margin: 0 0 1em 0;
+    width: 280px;
+    border: 5px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    padding: 1em;
+}
+
+input[type=submit], form a {
+    border: none;
+    margin-right: 1em;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    -moz-border-radius: 4px;
+    background: #348075;
+    color: white;
+    box-shadow: 0 1px 0 white;
+    -moz-box-shadow: 0 1px 0 white;
+    -webkit-box-shadow: 0 1px 0 white;
+
+}
+
+input[type=submit]:hover, form a:hover {
+    background: #287368;
+    cursor: pointer;
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+/* Validation error messages */
+
+.error {
+    color: #fc3c3c;
+    font-size: 15px;
+}
+
+fieldset {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 2em;
+    display: block;
+    background: #cdcdcd;
+}
+
+legend {
+    display: block;
+    background: #cdcdcd;
+    border: 1px solid #ffffff;
+    padding: 6px
+}
+
+/* Web User Home Page */
+.center_options{
+    width:200px;
+    margin: auto;
+}
+
+td.date{
+    text-align: center;
+}
+
+/* Web General Toolbars */
+/* Web Genereal Toolbars */
+/* Web General Toolbars */
+.toolbar2{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:344px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+
+.create{
+    display: inline;
+    padding-right: 20px;
+}
+
+.webUser_gen_toolbar{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:220px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+
+
+.webUser_gen_toolbar_1{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:220px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+
+.back_link{
+    display: inline;
+    padding-right: 20px;
+}
+.logout_link{
+    display: inline;
+}
+
+/* View Survey Toolbar */
+/* View Survey Toolbar */
+/* View Survey Toolbar */
+
+
+
+.webUser_gen_toolbar4{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:352px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+.back_link4{
+    display: inline;
+    padding-right: 20px;
+
+}
+.help4{
+    display: inline;
+    padding-right: 20px;
+}
+.view_surveys4{
+    display: inline;
+    padding-right: 20px;
+}
+.logout_link4{
+    display: inline;
+}
+
+/* Web Assign Survey View Toolbar */
+/* Web Assign Survey View Toolbar */
+/* Web Assign Survey View Toolbar */
+
+.webUser_gen_toolbar2{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:525px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+.back_link2{
+    display: inline;
+    padding-right: 1em;
+}
+.help2{
+    display: inline;
+    padding-right: 20px;
+}
+.logout_link2{
+    display: inline;
+
+}
+.create_link2{
+    display: inline;
+    padding-right: 1em;
+}
+
+/* Edit Survey Toolbar */
+/* Edit Survey Toolbar */
+/* Edit Survey Toolbar */
+
+.webUser_gen_toolbar5{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:340px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+.back_link5{
+    display: inline;
+    padding-right: 1em;
+}
+.help5{
+    display: inline;
+    padding-right: 20px;
+}
+.bck_surveys5{
+    display: inline;
+    padding-right: 1em;
+}
+.logout_link5{
+    display: inline;
+}
+
+/* Create Mobile User Toolbar */
+/* Create Mobile User Toolbar */
+/* Create Mobile User Toolbar */
+
+.webUser_gen_toolbar3{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:390px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+.back_link3{
+    display: inline;
+    padding-right: 1em;
+}
+.help3{
+    display: inline;
+    padding-right: 20px;
+}
+.manamob_links{
+    display: inline;
+    padding-right: 1em;
+}
+.logout_link3{
+    display: inline;    
+}
+
+.marg {
+    margin-left: 25px;
+}
+
+.webUser_gen_toolbara{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:420px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+.helpa{
+    display: inline;
+    padding-right: 20px;
+}
+.back_linka{
+    display: inline;
+    padding-right: 1em;
+}
+.manamob_linka{
+    display: inline;
+    padding-right: 1em;
+}
+.logout_linka{
+    display: inline;
+}
+
+/* View Text Responses Toolbar */
+/* View Text Responses Toolbar */
+/* View Text Responses Toolbar */
+
+.webUser_gen_toolbar7{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:340px;
+    margin:auto;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    background: #cdcdcd;
+}
+.back_link7{
+    display: inline;
+    padding-right: 1em;
+}
+.help7{
+    display: inline;
+    padding-right: 20px;
+}
+.logout_link7{
+    display: inline;
+}
+.create_link7{
+    display: inline;
+    padding-right: 1em;
+}
+
+/* View Text Responses Page */
+/* View Text Responses Page */
+/* View Text Responses Page */
+
+#text_response_container{
+    width: 300px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    -moz-border-radius: 3px;
+    background: #cdcdcd;
+}
+
+#tableResponse{
+    width:300px;
+    text-align: center;
+    margin-bottom:10px;
+    border-spacing:0px;
+}
+
+
+/* Web User Manage a Mobile Accounts Dashboard */
+/* Web User Manage a Mobile Accounts Dashboard */
+/* Web User Manage a Mobile Accounts Dashboard */
+
+.webUser_manage_mobile {
+    width: 400px;
+    border: 1px solid white;
+    margin: 40px auto 0;
+    padding: 1em;
+    background: #cdcdcd;
+    -moz-border-radius: 3px;
+}
+
+h1.mob_view{
+    margin-top: 0;
+    font-size: 20pt;
+    font-family: arial black, arial;
+    text-align: center;
+    color: #202020;
+}
+
+h1.mob_view_extra{
+    font-size: 15pt;
+    font-family: arial black, arial;
+    text-align: center;
+}
+
+h1.mob_view_extra2{
+    font-size: 13pt;
+    font-family: arial black, arial;
+    text-align: center;
+}
+
+.mob_view_table{
+    width:400px;
+    margin-bottom:10px;
+    border-spacing:0px;
+}
+
+.mob_username{
+    text-align: center;
+
+}
+
+.mob_align{
+    padding-left:40px;
+    padding-right: 0px;
+
+}
+
+/* Web User Create a Mobile Account */
+/* Web User Create a Mobile Account */
+/* Web User Create a Mobile Account */
+
+#create_mobile_user {
+    width: 300px;
+    border: 1px solid white;
+    margin: 50px auto 0;
+    padding: 1em;
+    background: #cdcdcd;
+    -moz-border-radius: 3px;
+}
+
+/* Web User Manage View Survey */
+/* Web User Manage View Survey */
+/* Web User Manage View Survey */
+
+#survey_heading {
+    margin: 10px;
+    padding: 10px;
+    background: #cdcdcd;
+    border: 1px solid #525252;
+    -moz-border-radius: 4px;
+}
+
+.survey_box {
+    margin: 10px;
+    padding: 10px;
+    background: #cdcdcd;
+    border: 1px solid #525252;
+    -moz-border-radius: 4px;
+}
+
+.myQuestions{
+    background: #dadada;;
+}
+
+/* Web User Manage Surevys Dashboard */
+/* Web User Manage Surveys Dashboard */
+/* Web User Manage Surveys Dashboard */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px;
+    padding: 10px;
+    background: #cdcdcd;
+    border: 1px solid #525252;
+    -moz-border-radius: 4px;
+}
+
+.rightlink {
+    float: right;
+    margin-left: 10px;
+}
+
+.move_right{
+    margin-left:50px;
+}
+
+/* Administration Dashboard */
+/* Administration Dashboard */
+/* Administration Dashboard */
+
+#admin_form {
+    width: 300px;
+    border: 1px solid white;
+    margin: 150px auto 0;
+    padding: 1em;
+    background: #cdcdcd;
+    -moz-border-radius: 3px;
+}
+
+.admin_p{
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+/* Administration Manags Web Accounts*/
+/* Administration manage Web Accounts */
+/* Administration Manage Web Accounts */
+
+h1.mob_view_admin{
+    margin-top: 0;
+    font-size: 15pt;
+    font-family: arial black, arial;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+
+#admin_form_web_view{
+    width: 600px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    -moz-border-radius: 3px;
+}
+
+#tableOne{
+    width:500px;
+    margin-bottom:10px;
+    border-spacing:0px;
+}
+
+.web_view{
+    padding: 7px;
+}
+
+.web_view_th{
+    text-align:center;
+    background: #cac9c9;
+    padding: 2px 2px 2px 2px;
+}
+
+.pagination{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.pagination a, .pagination strong{
+    background: #e3e3e3;
+    padding: 4px 7px;
+    text-decoration: none;
+    border:1px solid #cac9c9;
+    color: #292929;
+    font-size: 13px;
+
+}
+
+.pagination strong, .pagination a:hover{
+    font-weight:normal;
+    background: #cac9c9;
+
+}
+
+/* Administration Edit Web Accounts*/
+/* Administration Edit Web Accounts */
+/* Administration Edit Web Accounts */
+
+#admin_create_web_user {
+    width: 310px;
+    border: 1px solid white;
+    margin: 20px auto 40px;
+    padding: 2em;
+    -moz-border-radius: 3px;
+}
+
+.admin_form_p{
+
+    text-align: center;
+}
+
+/* Administration Manage Mobile Accounts*/
+/* Administration Manage Mobile Accounts */
+/* Administration Manage Mobile Accounts */
+
+#admin_form_mob_view{
+    width: 500px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    -moz-border-radius: 3px;
+}
+
+.mob_view_td{
+    text-align: center;
+    padding: 7px;
+}
+
+/* Administration Web Accounts Toolbar */
+/* Administration Web Accounts Toolbar */
+/* Administration Web Accounts Toolbar */
+
+.adminUser_manage_mobile{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:420px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+
+.adminUser_manage_mobile_a{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:460px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+
+.adminUser_manage_mobile_b{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:470px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+
+.adminUser_manage_mobile_c{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:220px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+
+.create_mob{
+    display: inline;
+    padding-right: 20px;
+
+}
+.back_to_dash{
+    display: inline;
+    padding-right: 20px;
+}
+.help_admin{
+    display: inline;
+    padding-right: 20px;
+}
+.logout{
+    display: inline;
+}
+
+.adminUser_manage_mobile2{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:435px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+
+.adminUser_manage_mobile{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:420px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+
+.adminUser_manage_mobile_d{
+    border: 1px solid white;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    width:220px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #cdcdcd;
+}
+
+.back_to_dash33{
+    display: inline;
+    padding-right: 20px;
+}
+.help_admin33{
+    display: inline;
+    padding-right: 20px;
+}
+.logout33{
+    display: inline;
+}
+

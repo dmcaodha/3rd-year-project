@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dip"
+    android:layout_height="220dip"
+    android:layout_marginTop="10dip"
+    android:background="#272727" 
+    android:layout_gravity="center"
+    >
+    
+	<TextView  
+		android:id="@+id/usernameText"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:text=""
+	    android:padding="6dip"
+	/>
+	<EditText
+	    android:id="@+id/username"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:singleLine="true" 
+      	android:editable="true"
+        android:fadingEdge="horizontal"
+        android:layout_below="@id/usernameText"/>
+	<TextView
+		android:id="@+id/passwordText"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/username"
+        android:padding="6dip"
+	/>
+	
+	<EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:singleLine="true" 
+      	android:editable="true"
+        android:fadingEdge="horizontal"
+        android:layout_below="@id/passwordText"	
+	/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#348075"
+            android:layout_margin="5dip"
+            android:text=""
+            android:onClick="onConfirm"
+        />    
+    </LinearLayout>      
+</RelativeLayout>
